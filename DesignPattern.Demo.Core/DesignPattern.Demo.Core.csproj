@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Behavioral\" />
+    <Folder Include="Structural\AdapterPattern\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.Demo.Entities\DesignPattern.Demo.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
